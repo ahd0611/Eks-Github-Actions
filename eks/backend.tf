@@ -10,8 +10,6 @@ terraform {
     bucket         = "abdulahad-0611-bucket"
     region         = "ap-south-1"
     key            = "eks/terraform.tfstate"
-    dynamodb_table = "abdulahad-2024-manual1"
-    encrypt        = true
   }
 }
 
